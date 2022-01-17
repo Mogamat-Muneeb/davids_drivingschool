@@ -1,0 +1,21 @@
+
+  .background_color{
+    background-color: #000C24;
+    
+  }
+
+  .offcanvas-body{
+    background-color:#121C7B ;
+  }
+
+  .offcanvas-header{
+    background-color: #121C7B;
+  }
+
+  /* .color_text{
+    text-decoration:#30DB14 ;
+  } */
+  .navbar-light .navbar-toggler{
+    border: none;
+    
+  }
