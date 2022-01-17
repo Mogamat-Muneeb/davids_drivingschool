@@ -5,16 +5,26 @@
   }
 
   .offcanvas-body{
-    background-color:#121C7B ;
+    background-color:   rgba(18,28,123);
+    -webkit-tap-highlight-color:transparent;
   }
 
   .offcanvas-header{
     background-color: #121C7B;
+    
   }
 
-  /* .color_text{
-    text-decoration:#30DB14 ;
-  } */
+  .text{
+    color: white;
+    display: flex;
+    justify-content: start;
+  }
+ 
+  .text:hover{
+    color:#000C24 ;
+  }
+   
+ 
   .navbar-light .navbar-toggler{
     border: none;
     
