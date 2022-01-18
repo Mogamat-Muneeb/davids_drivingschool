@@ -1,6 +1,6 @@
  body{
     background-color: white;
-    
+    font-family: 'Lato', sans-serif;
   }
 
   .offcanvas-body{
@@ -39,4 +39,23 @@
     object-fit: cover;
     width: 100%;
    
+  }
+
+  /* .background_home {
+    position: relative;
+  }
+  
+  Bottom right text
+  .texBlock_home {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+
+  .navbar-toggler:focus{
+    box-shadow: none;
   }
