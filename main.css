@@ -1,5 +1,5 @@
  body{
-    background-color: #E4E7EA;
+    background-color: red;
     
   }
 
@@ -33,3 +33,10 @@
     opacity: 0.1;
   }
 
+
+  .img-fluid{
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+   
+  }
