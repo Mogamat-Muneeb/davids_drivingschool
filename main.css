@@ -5,14 +5,20 @@
 
   .offcanvas-body{
     background-color:#181946;
-    -webkit-tap-highlight-color: transparent;
+    
+  }
+  .offcanvas-end{
+    width:250px;
   }
 
   .offcanvas-header{
     background-color: #181946;
     
   }
-
+    
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
   .text{
     color: white;
     display: flex;
@@ -55,7 +61,3 @@
     padding-left: 20px;
     padding-right: 20px;
   } */
-
-  .navbar-toggler:focus{
-    box-shadow: none;
-  }
