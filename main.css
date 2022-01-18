@@ -1,16 +1,15 @@
-
-  .background_color{
-    background-color: #000C24;
+ body{
+    background-color: #E4E7EA;
     
   }
 
   .offcanvas-body{
-    background-color:   rgba(18,28,123);
-    -webkit-tap-highlight-color:transparent;
+    background-color:#181946;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .offcanvas-header{
-    background-color: #121C7B;
+    background-color: #181946;
     
   }
 
@@ -29,3 +28,8 @@
     border: none;
     
   }
+
+  .offcanvas-backdrop.show{
+    opacity: 0.1;
+  }
+
