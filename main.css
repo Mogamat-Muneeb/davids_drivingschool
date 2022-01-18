@@ -1,5 +1,5 @@
  body{
-    background-color: red;
+    background-color: white;
     
   }
 
@@ -35,7 +35,7 @@
 
 
   .img-fluid{
-    height: 100vh;
+    height: 95vh;
     object-fit: cover;
     width: 100%;
    
