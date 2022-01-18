@@ -4,9 +4,15 @@
   }
 
   .offcanvas-body{
-    background-color:#181946;
+    background-color:#313C4F;
+    
     
   }
+ 
+  .offcanvas-body.glass{
+    background-color: transparent ;
+  }
+
   .offcanvas-end{
     width:250px;
   }
@@ -41,7 +47,7 @@
 
 
   .img-fluid{
-    /* height: 95vh; */
+    height: 70vh;
     object-fit: cover;
     width: 100%;
    
@@ -61,3 +67,10 @@
     padding-left: 20px;
     padding-right: 20px;
   } */
+.container_home{
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ width:600px;
+ padding-top:100px;
+}
