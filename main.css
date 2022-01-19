@@ -85,11 +85,18 @@ border-left:auto ;
 }
  
  
+ .links_footer{
+   display: flex;
  
- 
- 
- 
- 
+   justify-content: space-between;
+ }
+ .links_footer a{
+   text-decoration: none;
+ }
+ .call{
+   display: flex;
+   justify-content: space-around;
+ }
  
  
  
