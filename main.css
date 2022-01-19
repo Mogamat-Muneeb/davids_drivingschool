@@ -1,16 +1,113 @@
- body{
+body{
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.offcanvas-body{
+  background-color:#313C4F;
+  
+  
+}
+
+.offcanvas-body.glass{
+  background-color: transparent ;
+}
+
+.offcanvas-end{
+  width:250px;
+}
+
+.offcanvas-header{
+  background-color: #181946;
+  
+}
+  
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.text{
+  color: white;
+  display: flex;
+  justify-content: start;
+}
+
+.text:hover{
+  color:#000C24 ;
+}
+ 
+
+.navbar-light .navbar-toggler{
+  border: none;
+  
+}
+
+.offcanvas-backdrop.show{
+  opacity: 0.1;
+}
+
+
+.img-fluid{
+  height: 70vh;
+  object-fit: cover;
+  width: 100%;
+ 
+}
+
+/* .background_home {
+  position: relative;
+}
+
+Bottom right text
+.texBlock_home {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+.container_home{
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+width:600px;
+padding-top:100px;
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* body{
     background-color: white;
     font-family: 'Lato', sans-serif;
   }
 
-  .offcanvas-body{
-    background-color:#313C4F;
-    
-    
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.ndsdrivingschool.co.za/wp-content/uploads/2021/04/instructor-with-checklist-woman-car-examination-lesson-driving-school-1024x681.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
- 
-  .offcanvas-body.glass{
-    background-color: transparent ;
+
+  .overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  #off-body{
+    background: transparent;
   }
 
   .offcanvas-end{
@@ -52,25 +149,10 @@
     width: 100%;
    
   }
-
-  /* .background_home {
-    position: relative;
-  }
-  
-  Bottom right text
-  .texBlock_home {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  } */
 .container_home{
  text-align: center;
  margin-right: auto;
  margin-left: auto;
  width:600px;
  padding-top:100px;
-}
+} */
