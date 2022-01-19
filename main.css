@@ -72,8 +72,17 @@ text-align: center;
 margin-right: auto;
 margin-left: auto;
 width:auto;
-padding-top:100px;
+padding-top:3rem;
+border-right: auto;
+border-left:auto ;
 } 
+
+.icons{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-size:4rem ;
+}
  
  
  
