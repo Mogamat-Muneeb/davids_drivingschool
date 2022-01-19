@@ -83,8 +83,10 @@ border-left:auto ;
   align-content: center;
   font-size:4rem ;
 }
- 
- 
+/* .icons1{
+  display: flex;
+}
+  */
  .links_footer{
    display: flex;
  
