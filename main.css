@@ -200,15 +200,62 @@ textarea {
 }
 
 /* areas */
-.paragraph_areas{
- display: grid;
- 
+  .paragraph_areas{
+   display: grid;
+    max-width: 90%;
+      margin: 0 auto;
+  
 }
 
 .para{
-  width: 500px;
+  /* width: 500px;
   padding-left: auto;
   padding-right: auto;
   margin-left: auto;
+  margin-right:auto ; */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif
+}
+
+/* downloads */
+
+.btn_card{
+  width: 150px;
+  margin-left: auto;
   margin-right:auto ;
+  height: 35px;
+}
+
+.card{
+  border-radius: 10px;
+  height: 300px;
+}
+
+.row{
+  padding-right: auto;
+  padding-left: auto;
+}
+
+.pic_pdf{
+  display: flex;
+  justify-content: center;
+  width: 23px;
+  height: 30px;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-body{
+  display: grid;
+  justify-content: center;
+  
 }
