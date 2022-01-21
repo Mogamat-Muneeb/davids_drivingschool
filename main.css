@@ -101,6 +101,7 @@ border-left:auto ;
   width:200PX;
   height:200PX;
   object-fit: contain;
+  cursor: pointer;
 }
  
 
@@ -252,6 +253,7 @@ textarea {
   padding-left: auto;
   margin-right: auto;
   margin-left: auto;
+ 
 }
 
 .card-body{
