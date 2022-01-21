@@ -4,10 +4,11 @@ body{
 }
 
 .offcanvas-body{
-  background-color:#313C4F;
+  background-color:	rgb(0,0,0);
   
   
 }
+
 
 .offcanvas-body.glass{
   background-color: transparent ;
@@ -18,7 +19,7 @@ body{
 }
 
 .offcanvas-header{
-  background-color: #181946;
+  background-color: 	rgb(0,0,0);
   
 }
   
@@ -32,18 +33,28 @@ body{
 }
 
 .text:hover{
-  color:#000C24 ;
+  color:black ;
 }
- 
+
+.navbar{
+  opacity: 0.8;
+}
+
+.navbar>.container-fluid{
+  justify-content: flex-end;
+}
+/* .navbar-brand{
+  opacity: none;
+} */
 
 .navbar-light .navbar-toggler{
   border: none;
   
 }
-
+/* 
 .offcanvas-backdrop.show{
   opacity: 0.1;
-}
+} */
 
 
 .img-fluid{
@@ -74,6 +85,7 @@ border-left:auto ;
   display: flex;
 }
   */
+  /* footer */
  .links_footer{
    display: flex;
  
