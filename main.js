@@ -1,28 +1,58 @@
 
-// mybutton = document.getElementById("myBtn");
-
-
-// window.onscroll = function() {scrollFunction()};
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     mybutton.style.display = "block";
-//   } else {
-//     mybutton.style.display = "none";
-//   }
-// }
-
-
-// function topFunction() {
-//   document.body.scrollTop = 0; 
-//   document.documentElement.scrollTop = 0;
-// }
-
-const menu_btn = document.querySelector('.menu');
-const mobile_menu = document.querySelector('.mobile-nav');
-
-menu_btn.addEventListener('click', () => {
-
-  menu_btn.classList.toggle('is-active');
-  mobile_menu.classList.toggle('is-active');
-});
+function validateForm() {
+    const n = document.getElementById('name').value;
+    const e = document.getElementById('email').value;
+    const s = document.getElementById('subject').value;
+    const m = document.getElementById('message').value;
+    const onlyLetters =/^[a-zA-Z\s]*$/; 
+    const onlyEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    
+    
+    if(n == "" || n == null){
+        document.getElementById('nameLabel').innerHTML = ('Please enter your name');
+        document.getElementById('name').style.borderColor = "red";
+        return false;
+    }
+       
+  
+    if (!n.match(onlyLetters)) {
+        document.getElementById('nameLabel').innerHTML = ('Please enter only letters');
+        document.getElementById('name').style.borderColor = "red";
+        return false;
+    }
+  
+    if(e == "" || e == null ){
+          document.getElementById('emailLabel').innerHTML = ('Please enter your email');
+          document.getElementById('email').style.borderColor = "red";
+          return false;
+      }
+  
+    if (!e.match(onlyEmail)) {
+        document.getElementById('emailLabel').innerHTML = ('Please enter a valid email address');
+        document.getElementById('email').style.borderColor = "red";
+        return false;
+    }
+  
+    if(s == "" || s == null ){
+          document.getElementById('subjectLabel').innerHTML = ('Please enter your subject');
+          document.getElementById('subject').style.borderColor = "red";
+          return false;
+      }
+  
+    if (!s.match(onlyLetters)) {
+        document.getElementById('subjectLabel').innerHTML = ('Please enter only letters');
+        document.getElementById('subject').style.borderColor = "red";
+        return false;
+    }
+  
+    if(m == "" || m == null){
+        document.getElementById('messageLabel').innerHTML = ('Please enter your message');
+        document.getElementById('message').style.borderColor = "red";
+        return false;
+    }
+  
+    else{
+          return true;
+      }
+      
+}
