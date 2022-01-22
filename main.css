@@ -42,7 +42,16 @@ body{
 
 .navbar>.container-fluid{
   justify-content: flex-end;
+  background-color:none ;
 }
+
+.bg-dark {
+  --bs-bg-opacity: none;
+}
+
+/* .btn-close text-reset {
+  color: white;
+} */
 /* .navbar-brand{
   opacity: none;
 } */
