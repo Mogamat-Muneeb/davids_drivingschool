@@ -10,9 +10,9 @@ body{
 }
 
 
-.offcanvas-body.glass{
+/* .offcanvas-body.glass{
   background-color: transparent ;
-}
+} */
 
 .offcanvas-end{
   width:250px;
@@ -49,21 +49,13 @@ body{
   --bs-bg-opacity: none;
 }
 
-/* .btn-close text-reset {
-  color: white;
-} */
-/* .navbar-brand{
-  opacity: none;
-} */
+
 
 .navbar-light .navbar-toggler{
   border: none;
+
   
 }
-/* 
-.offcanvas-backdrop.show{
-  opacity: 0.1;
-} */
 
 
 .img-fluid{
@@ -90,10 +82,7 @@ border-left:auto ;
   align-content: center;
   font-size:4rem ;
 }
-/* .icons1{
-  display: flex;
-}
-  */
+
   /* footer */
  .links_footer{
    display: flex;
