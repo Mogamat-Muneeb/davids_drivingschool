@@ -104,6 +104,8 @@ border-left:auto ;
  .links_footer a{
    text-decoration: none;
  }
+ 
+ 
  .call{
    display: flex;
    justify-content: space-around;
@@ -127,6 +129,7 @@ border-left:auto ;
 }
  
 
+
 /* contact */
 #success-message {
   opacity: 0;
@@ -148,7 +151,7 @@ border-left:auto ;
 }
 
 .form-group .form-control {
-  -webkit-box-shadow: none;
+  
   border-bottom: 1px;
   border-style: none none solid none;
   border-radius:0; 
@@ -205,9 +208,9 @@ textarea {
 }
 
 .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
-    color: #fff;
+    color: #000;
     border-color: #000;
-    background: #000;
+    background: #e85d04;
     outline: none;
 }
 
