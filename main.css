@@ -9,6 +9,10 @@ body{
   
 }
 
+/* .offcanvas-backdrop.fade {
+  opacity:none ;
+} */
+
 
 /* .offcanvas-body.glass{
   background-color: transparent ;
@@ -56,6 +60,9 @@ body{
 
   
 }
+.navbar-toggler-icon {
+  opacity:1;
+}
 
 
 .img-fluid{
@@ -75,6 +82,9 @@ padding-top:3rem;
 border-right: auto;
 border-left:auto ;
 } 
+.homeicon{
+  padding-top: 70px;
+}
 
 .icons{
   display: grid;
