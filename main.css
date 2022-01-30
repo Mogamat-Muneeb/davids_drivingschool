@@ -420,7 +420,7 @@ textarea {
 
  } */
  
-/* 
+
  @media only screen and (max-width: 500px) {
   .logo{
     display:flex;
@@ -429,8 +429,8 @@ textarea {
     position: absolute;
     top: -15%;
     left: 30%;
-    height: 600px;
-    width: 600px;
+    height: 60%;
+    width: 60%;
     object-fit:cover;
   }
-} */
+}
