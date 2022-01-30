@@ -3,6 +3,7 @@ body{
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
   
+  
 }
 
 .offcanvas-body{
@@ -433,4 +434,9 @@ textarea {
     width: 60%;
     object-fit:cover;
   }
+}
+
+.con{
+  width: 100vw;
+  overflow-x: hidden;
 }
